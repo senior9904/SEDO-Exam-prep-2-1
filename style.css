@@ -35,20 +35,33 @@ body {
 }
 
 #add-btn {
-  padding: 0.3em 0.6em;
+  padding: 0.4em 0.8em;
   margin-left: 0.5em;
+  background-color: #4CAF50;      /* green background */
+  color: white;                   /* white text */
+  border: none;                   /* remove default border */
+  border-radius: 4px;             /* rounded corners */
+  cursor: pointer;                /* pointer on hover */
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
 #task-list {
-  list-style: none;
+  list-style: none;        /* remove default bullets */
   padding: 0;
-  margin-top: 1em;
+  margin: 1rem 0;
 }
 
 #task-list li {
-  padding: 0.5em;
-  border-bottom: 1px solid #ddd;
-  cursor: pointer;
+  background-color: #f9f9f9;
+  padding: 0.6em 0.8em;
+  margin-bottom: 0.5em;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 #task-list li.completed {
   text-decoration: line-through;
