@@ -3,7 +3,7 @@
 const input = document.getElementById('task-input');
 const addBtn = document.getElementById('add-btn');
 const list = document.getElementById('task-list');
-
+// Adding new comment here
 addBtn.addEventListener('click', () => {
   const text = input.value;
   const li = document.createElement('li');
