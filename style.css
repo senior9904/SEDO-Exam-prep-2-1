@@ -16,8 +16,22 @@ body {
 }
 
 #task-input {
-  width: 200px;
-  padding: 0.3em;
+  width: 220px;
+  padding: 0.5em 0.7em;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#task-input::placeholder {
+  color: #999;
+}
+
+#task-input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.15);
 }
 
 #add-btn {
