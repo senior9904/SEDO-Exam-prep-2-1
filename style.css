@@ -21,8 +21,15 @@ body {
 }
 
 #add-btn {
-  padding: 0.3em 0.6em;
+  padding: 0.4em 0.8em;
   margin-left: 0.5em;
+  background-color: #4CAF50;      /* green background */
+  color: white;                   /* white text */
+  border: none;                   /* remove default border */
+  border-radius: 4px;             /* rounded corners */
+  cursor: pointer;                /* pointer on hover */
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
 #task-list {
